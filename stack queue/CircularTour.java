@@ -9,6 +9,7 @@ public class CircularTour {
                 capacity=0;
                 start=i+1;
             }
+            System.out.println(deficit);
         }
         if(capacity+deficit>=0){
             System.out.println(start);

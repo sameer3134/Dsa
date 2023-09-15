@@ -15,7 +15,6 @@ class Mains {
 		return temp;
 	}
 	static int distance(Node root,int n1,int n2){
-        Node lca=findlca(root, n1,n2);
         int d1=dist(lca, n1, 0);
         int d2=dist(lca, n2,0);
         return d1+d2;
